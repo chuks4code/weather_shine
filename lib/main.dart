@@ -20,9 +20,19 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Weather Shine',
+      debugShowCheckedModeBanner: false, // removes globally
+      title: 'Weather Shine App',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        appBarTheme: AppBarTheme(
+          //backgroundColor: Colors.deepPurple, // ensures it is visible
+          //foregroundColor: Colors.white, // text & icons color
+          titleTextStyle: TextStyle(
+            fontWeight: FontWeight.w900,
+            color: Colors.white,
+            fontSize: 30.0,
+          ),
+        ),
+        // colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       home: HomeScreen(),
     );
