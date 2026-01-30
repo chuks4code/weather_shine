@@ -199,16 +199,6 @@ class _HomeScreenState extends State<HomeScreen> {
                                 'Timezone',
                                 _countryInfo!['timezone'],
                               ),
-                              const SizedBox(height: 10),
-
-                              // Google Maps link
-                              if (_countryInfo!['googleMap'] != null)
-                                TextButton(
-                                  onPressed: () {
-                                    // open link in browser
-                                  },
-                                  child: const Text('View on Google Maps'),
-                                ),
                             ],
                           ),
                         ),
