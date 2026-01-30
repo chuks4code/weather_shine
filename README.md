@@ -44,6 +44,12 @@ The project demonstrates how to combine multiple APIs in a single Flutter applic
 ---
 
 ## 📸 Screenshots
+
+
+
+https://github.com/user-attachments/assets/94a4e770-5576-482d-b698-4e3d3b61f16d
+
+
 <img width="240"  src="https://github.com/user-attachments/assets/ef15decf-c3ae-4db4-abe7-917eb0188be3" />
 <img width="240"  alt="image" src="https://github.com/user-attachments/assets/9f84f98b-bd26-497e-85db-c3fa5b3adc69" />
 <img width="240"  alt="image" src="https://github.com/user-attachments/assets/5555a28b-9f1e-4245-8533-7e2109ec0450" />
