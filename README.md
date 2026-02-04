@@ -58,6 +58,10 @@ https://github.com/user-attachments/assets/94a4e770-5576-482d-b698-4e3d3b61f16d
 <img width="240"  alt="image" src="https://github.com/user-attachments/assets/3ac539ab-a76d-439c-bbb5-31dc1de00cf0" />
 
 
+## Installation
+
+```bash
+# Clone the repository
 git clone https://github.com/chuks4code/weather_shine.git
 cd weather_shine
 flutter pub get
